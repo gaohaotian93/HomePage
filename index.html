@@ -10,8 +10,8 @@
     <meta name="description"
         content="Ted.Gao的个人主页 | 什么也不会，生活太艰难，只能做条咸鱼了。">
     <meta name="keywords" content="主页,home,linux,tedgao">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/gaohaotian93/homepage@master/css/FiraCode.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/gaohaotian93/homepage@master/css/nutssss.css">
+    <link rel="stylesheet" type="text/css" href="css/FiraCode.css">
+    <link rel="stylesheet" type="text/css" href="css/nutssss.css">
     <link rel="shortcut icon" href="./favicon.ico">
     <script>var _hmt=_hmt||[];!function(){var b,a=document.createElement("script");a.src="https://hm.baidu.com/hm.js?580a9ab4977abd12bd88194fe15595f4",b=document.getElementsByTagName("script")[0],b.parentNode.insertBefore(a,b)}();</script>        
 </head>
@@ -67,6 +67,7 @@
                     <span style="color: blue;">~</span>
                     <span style="color: rgb(39, 39, 39);">./yiyan.sh</span>
                     <p class="hito">Beautiful And Sweet</p>
+                    <br />
                     <span style="color: rgb(0, 190, 0);">root@TedGao</span>
                     <span style="color: blue;">~</span>
                     <span style="color: rgb(39, 39, 39);">cat about_me.txt</span>
@@ -75,6 +76,7 @@
                     <p>-- 	五	 --</p>
                     <p>--	行	 --</p>
                     <p>--	字 	 --</p>
+                    <br />
                     <span style="color: rgb(0, 190, 0);">root@TedGao</span>
                     <span style="color: blue;">~</span>
                     <span style="color: rgb(39, 39, 39);">sudo rm -rf /*</span>
@@ -104,18 +106,41 @@
                         <li><a href="https://blog.tedgao.com">博客</a></li>
                         <li><a href="http://music.163.com/#/user/home?id=57472601">网易云</a></li>
                     </ul>
+                    <br />
                     <span style="color: rgb(0, 190, 0);">root@TedGao</span>
                     <span style="color: blue;">~</span>
                     <span style="color: rgb(39, 39, 39);">./running.sh</span><br>
-		    <span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span><br>
+		            <span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span><br>
+                    <br />
                     <span style="color: rgb(0, 190, 0);">root@TedGao</span>
                     <span style="color: blue;">~</span>
                     <span style="color: rgb(39, 39, 39);">./ip.sh</span>
                     <p class="getip"></p>
+                    <br>
                     <span style="color: rgb(0, 190, 0);">root@TedGao</span>
                     <span style="color: blue;">~</span>
                     <span style="color: rgb(39, 39, 39);">cat author.txt</span>
-		    <p>本主页作者为<a href="https://gitee.com/nutssss/NutssssIndex">N0tssss</a></p>
+		            <p>本主页作者为<a href="https://gitee.com/nutssss/NutssssIndex">N0tssss</a></p>
+                </div>
+            </div>
+            <!-- 第三个终端 -->
+            <div class="cmd cmd3">
+                <!-- 三个按钮 -->
+                <div class="click">
+                    <div class="red"></div>
+                    <div class="yellow"></div>
+                    <div class="green"></div>
+                </div>
+                <!-- 顶部标题 -->
+                <div class="title">
+                    <span>TedGao- bash</span>
+                </div>
+                <!-- 终端内文字 -->
+                <div class="cmdText">
+                    <span style="color: rgb(0, 190, 0);">root@TedGao</span>
+                    <span style="color: blue;">~</span>
+                    <span style="color: rgb(39, 39, 39);">./links.sh</span>
+                    <p>各种连接：</p>
                 </div>
             </div>
         </div>
@@ -141,8 +166,8 @@
         snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;}
         document.getElementById("timeDate").innerHTML = " 网站已经运行 "+dnum+" 天 ";
         document.getElementById("times").innerHTML = hnum + " 时 " + mnum + " 分 " + snum + " 秒 ";
-    }
-setInterval("createtime()",250);
+        }
+        setInterval("createtime()",250);
     </script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery-backstretch@2.1.18/jquery.backstretch.min.js"></script>
